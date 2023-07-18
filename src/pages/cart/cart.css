@@ -18,12 +18,13 @@
   
   .cartItem img {
     width: 200px;
+    padding: 0px 20px;
   }
   
   .cartItem .description {
     width: 100%;
     font-size: 30px;
-    padding: 5px 10px;
+    padding: 5px 20px;
   }
   
   .countHandler input {
@@ -41,5 +42,9 @@
     border-radius: 8px;
     margin: 10px;
     cursor: pointer;
+  }
+  .checkout button:hover {
+    background-color: rgb(214, 214, 214);
+    color: #000;
   }
   
